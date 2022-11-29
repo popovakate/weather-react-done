@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import WeatherSearch from "./WeatherSearch";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1>Weather App</h1>
+    <WeatherSearch />
+    <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+      Learn React
+    </a>
   </React.StrictMode>
 );
 
